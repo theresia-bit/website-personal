@@ -1,0 +1,194 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+	<title>Tugas Kelompok</title>
+    <style type="text/css">
+        body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    </style>
+    </head>
+    
+    <body bgcolor="#FFFACD">
+        <center><h1>JARINGAN KOMPUTER DAN INTERNET</h1>></center>
+        <h3>Anggota Kelompok:</h3>
+        <ul>
+            <li>Theresia Kayla</li>
+            <li>Humaira Firzi</li>
+        </ul>
+        <h2>A. Topologi Jaringan</h2>
+        
+        <ul><p>Berikut adalah jenis-jenis Topologi jaringan</p></ul>
+            <table align= "center" border="2" cellpadding="10" width="800px">
+                <tr bgcolor="palevioletred">
+                    <td>NO</td>
+                    <td>Jenis Topologi Jaringan</td>
+                    <td>Gambar</td>
+                    <td>Keterangan</td>
+                </tr>
+                <tr bgcolor="thistle">
+                    <td>1</td>
+                    <td>BUS</td>
+                    <td><img src="bus.png" width="150" height="100" alt="bus"/></td>
+                    <td>Topologi Bus adalah topologi dimana setiap node terkoneksi melalui kabel utama atau bus atau backbone(ini sangat efisien dengan jumlah node yang tidak banyak)</td>
+                </tr>
+                <tr bgcolor="thistle">
+                    <td>2</td>
+                    <td>STAR</td>
+                    <td><img src="star.png" width="150" height="100" alt="star"/></td>
+                    <td>Topologi star adalah topologi dimana setiap node terkoneksi melalui node konektor pusat(topologi ini banyak dipakai karna kemudahanya) </td>
+                </tr>
+                <tr bgcolor="thistle">
+                    <td>3</td>
+                    <td>RING</td>
+                    <td><img src="ring.png" width="150" height="100" alt="ring"/></td>
+                    <td>Topologi ring adalah topologi dengan hubungan antar node terjadi antar satu node dengan note tetangganya dan membentuk konfigurasi lingkaran atau cincin.</td>
+                </tr>
+                <tr bgcolor="thistle">
+                    <td>4</td>
+                    <td>TREE</td>
+                    <td><img src="tree.png" width="150" height="100" alt="tree"/></td>            
+                    <td>Topologi Tree adalah topologi yang membentuk hubungan antar node seperti cabang pada pohon(biasa digunakan untuk pengaturan jaringan pada institusi yang memiliki hirarki)</td>
+                </tr>
+                <tr bgcolor="thistle">
+                    <td>5</td>
+                    <td>HYBRID</td>
+                    <td><img src="hybrid.png" width="150" height="100" alt="hybrid"/></td>
+                    <td>Topologi Hybrid adalah topologi yang menggabungkan du atau lebih topologi jaringan,seperti topologi bintang,cincin, dan mesh</td>
+                </tr>
+            </table>
+
+                <ul><h3>Biaya Instalasi</h3></ul>
+                    <ul><ul><p>Topologi jaringan yang lebih kompleks cenderung membutuhkan biaya instalasi yang lebih tinggi, karena melibatkan lebih banyak waktu, kabel, dan perangkat. Jangkauan jaringan yang lebih luas memerlukan kabel lebih banyak, dan jenis kabel juga mempengaruhi biaya. Kabel fiber optic, meskipun lebih cepat dan memiliki kapasitas lebih besar, lebih mahal dibandingkan dengan kabel tembaga. Pemilihan topologi yang tepat harus mempertimbangkan kinerja jaringan, jangkauan, jumlah komputer yang terhubung, dan anggaran.</p></ul></ul>
+                <ul><h3>Skalabilitas</h3></ul>
+                    <ul><ul><p>Skalabilitas adalah faktor penting dalam memilih topologi jaringan, terutama jika ada rencana untuk memperluas jaringan di masa depan. Topologi yang mudah dimodifikasi, seperti topologi bintang, memungkinkan penambahan atau pengurangan node dengan gangguan minimal. Berbeda dengan topologi Ring, yang bisa menyebabkan seluruh jaringan tidak berfungsi saat menambah node baru. Topologi yang mudah dimodifikasi membantu menghemat waktu dan mempermudah proses instalasi.</p></ul></ul>
+        
+            <h2>B. Model Topologi Jaringan</h2>
+            <p><ul><h3>Model Jaringan Komputer</h3></ul></p>
+            <p><ul><ul>konsep yang menjelaskan bagaimana komputer dapat saling berkomunikasi.</p></ul></ul>
+            
+            <ul><ul><p>Berikut Komponen yang membentuknya adalah:</p></ul></ul>
+            <ul><ul><ol>
+                <li>Software</li>
+                <li>Firmware</li>
+                <li>Rekayasa Chip</li>
+                <li>Hardware</li>
+                <li>Sinyal listrik</li>
+            </ul></ul></ol>
+            <ul><ul><p>Untuk mempermudah pemahaman, jaringan komputer dikonsep dalam model berlapis (layered model), dimana setiap lapisan memiliki tugas tertentu, mirip dengan sistem tubuh manusia yang terdiri dari berbagai organ dengan fungsi spesifik.</p>
+            <p>Berikut adalah arsitektur model jaringan berlapis</p></ul></ul>
+            <center><img src="MODEL lapisan.png" width="180" height="150" alt="MODEL lapisan"/></center>
+
+            <ul><h3>OSI Model</h3></ul>
+            <ul><ul><p>Open System Interconnection (OSI) Model adalah model yang diciptakan oleh “International Organization for Standardization (ISO)” untuk mengatur standar protokol dan format data yang berbeda dari banyak perusahaan penyedia jaringan komputer. Model ini
+                menggunakan model lapisan yang terdiri atas 7 lapisan, seperti
+                tampak pada Gambar berikut:</p></ul>
+            <center><img src="MODEL OSI.png" width="250" height="200" alt="Model OSI"/></center>
+            <dl>
+                <dt>Application Layer</dt>
+                <dd>Lapisan ini bertanggung jawab untuk menyediakan antarmuka ke pengguna aplikasi. Dengan protokol seperti hypertext transfer protocol (HTTP), file transfer protocol (FTP), domain name services (DNS)</dd>
+                <dt>Presentation Layer</dt>
+                <dd>Bertanggung jawab menerjemahkan dan mengamankan data, menggunakan protokol seperti SSL, TLS, dan RDP</dd>
+                <dt>Session Layer</dt>
+                <dd>Menangani koneksi antar komputer, mengelola sesi, dan memastikan autentikasi tidak diulang dalam waktu tertentu. Contoh protokol: NetBIOS (IBM), Point-to-point Tunneling Protocol (PPTP).</dd>
+                <dt>Transport Layer</dt>
+                <dd>Mengatur pengiriman data end-to-end, memecah data menjadi paket, memberikan nomor urut, dan memastikan daa tiba dengan benar. Contoh protokol: TCP, UDP.</dd>
+                <dt>Network Layer</dt>
+                <dd>Bertanggung Jawab atas alamat unik antar perangkat dalam jaringan. Contoh protokol: IP, ARP, ICMP. </dd>
+                <dt>Data Link Layer</dt>
+                <dd>Mengelola transfer data antar perngkat dalam satu jaringan, termasuk pengalaman MAC dan error checking. Contoh protokol: PPP</dd>
+                <dt>Physichal Layer</dt>
+                <dd>Lapisan Fisik mendefinisikan perangkat keras untuk transmisi data seperti NIC, repeater, dan hub. Lapisan ini mengatur sinkronisasi bit, arsitektur jaringan, topologi, dan pengkabelan. Tanggung jawabnya juga termasuk pengiriman data dalam bentuk bit dan encoding. Protokol yang digunakan di lapisan ini antara lain Ethernet, USB, dan Bluetooth.</dd>
+            </dl>
+
+            <h3>Transmission Control Protocol/Internet Protocol (TCP/IP)</h3>
+            <p>TCP/IP adalah protokol utama yang digunakan di internet, dikembangkan pada 1980-an untuk menghubungkan berbagai komputer dan jaringan. Protokol ini menggunakan IP address untuk menghubungkan sistem yang berbeda seperti Windows dan Linux. Keunggulannya adalah standar terbuka yang dapat beroperasi tanpa tergantung pada perangkat keras atau sistem operasi. TCP/IP membagi data menjadi paket kecil dan IP menambahkan alamat tujuan. Paket data dapat melewati jalur yang berbeda dengan bantuan router. Jika terjadi kerusakan, perangkat penerima akan meminta data dikirim ulang. Gateway memungkinkan jaringan berbeda berkomunikasi dengan internet.</p>
+            
+            <h2>C. Transmisi Data</h2>
+            <p>Transmisi data adalah proses berbagi atau bertukar data antara dua objek, alat, atau sistem. Bagian penting dari komunikasi data dapat dilihat pada gambar berikut.</p>
+            <center><img src="pengiriman data.jpg" width="350" height="200" alt="pengiriman data"/></center>
+
+            <h3>Paket Data</h3>
+            <p>Transmisi data pada jaringan komputer dan internet umumnya tidak dilakukan dalam ukuran besar untuk menghindari kendala pada kemampuan medium dan untuk memastikan keandalan pengiriman. Data dikirim dalam bentuk paket kecil yang disebut data packets atau datagram. Ukuran paket data bisa tetap atau dinamis, tergantung kebutuhan sistem, namun biasanya sekitar 64 KiB agar lebih mudah dikelola.</p>
+
+            <h3>Struktur Paket</h3>
+            <p>Paket Data terdiri dari 3 bagian utama:</p>
+            <ul>
+                <li>Packet Header: Berisi alamat tujuan dari paket saat akan dikirimkan.</li>
+                <li>Packet Payload: Merupakan isi atau data utama yang dikirimkan dari sumber ke tujuan.</li>
+                <li>Packet Trailer: Menandakan akhir dari paket data dan dapat berisi protokol untuk pengecekan keberhasilan pengiriman data.</li>
+             </ul>
+             <p>Untuk setiap paket, packet header, berisi:</p>
+             <ul>
+                <li>Alamat IP pengirim</li>
+                <li>Alamat IP penerima (tujuan)</li>
+                <li>Urutan paket yang digunakan untuk penyusunan kembali paket saat sampai di tujuan</li>
+                <li>Ukuran paket yang digunakan untuk menentukan apakah paket utuh ketika sampai di node, termasuk juga informasi banyaknya paket yang ditransmisikan.</li>
+            </ul>
+            <p>Lalu untuk Packet payload berisi:</p>
+            <ul>
+                <li>Data aktual yang dikirimkan yang biasanya sebesar 64KiB.</li>
+            </ul>
+            <p>Dan terakhir Packet trailer berisi:</p>
+            <ul>
+                <li>Cara untuk mengidentifikasi akhir paket</li>
+                <li>Cara untuk mengecek kesalahan pengiriman, beberapa cara antara lain Cyclic Redundancy Check (CRC), checksum, dll. </li>
+            </ul>
+
+            <ol>
+                <h4><li>Packet Switching</li></h4>
+            </ol>
+            <p>Packet switching adalah salah satu cara transmisi paket data yang paling banyak digunakan, dimana data akan dipecah ke dalam beberapa paket data dan dikirimkan secara independen dari titik awal ke titik tujuan.</p>
+            <p>misalnya kalian sedang mengirimkan sebuah surel yang berisi foto kalian dari laptop kalian ke ponsel milik teman kalian. Surel dan foto tersebut akan dipecah dalam beberapa paket data sebelum dikirimkan. Paket-paket data akan dikirim melalui jalur atau rute dari komputer A ke komputer B, melalui node yang bisa berupa router, switch, komputer, dan lain sebagainya.</p>
+            <p>Berikut gambar jalur pengiriman paket data dari komputer A ke komputer B:</p>
+            <center><img src="jalur.jpg" width="350" height="200" alt="jalur"/></center>
+            <p>Berikut gambar pergerakan pengiriman paket data dari komputer A ke Komputer B</p>
+            <center><img src="pengiriman.jpg" width="350" height="200" alt="pengiriman"/></center>
+            <p>Kelebihan metode paket switching</p>
+                <ul type="square">
+                    <li>Paket data dapat dikirimkan dari sumber ke tujuan tanpa jalur khusus (dedicated channel) </li>
+                    <li>Kegagalan pengiriman rendah, karena router dapat melakukan pengiriman ulang (rerouting) paket jika
+                        terjadi kegagalan.</li>
+                    <li>Banyak user bisa menggunakan jaringan yang sama.</li>
+                    <li>Memungkinkan pengiriman data kecepatan tinggi.</li>
+                </ul>
+                    
+            <p>Kekurangan metode paket Switching</p>
+                <ul type="square">
+                    <li>Paket data bisa hilang dan harus dikirimkan kembali.</li>
+                    <li>Proses menyusun kembali paket data yang membutuhkan waktu.</li>
+                    <li>Adanya delay (jeda) dan rentan terhadap error sehingga sulit digunakan untuk pengiriman data yang cepat dan berkualitas tinggi seperti voice call.</li>
+                </ul>
+                <ol>
+                    <h4><li>Deteksi dan Perbaikan Kesalahan</li></h4>
+                </ol>
+                <p>Adapun bentuk-bentuk kesalahan yang dapat terjadi pada pengiriman data yaitu</p>
+                <center><img src="kesalahan.png" width="350" height="200" alt="Kesalahan"/></center>
+                <p>Kesalahan yang terjadi pada proses pengiriman data tersebut dapat dikendalikan dengan dua cara yaitu:</p>
+                 <ul>   
+                    <p><li type="a">Pendeteksi Kesalahan</li></p>
+                </ul>
+                <p>Beberapa cara kesalahan pada pengiriman data, diantaranya yaitu:</p>
+                    <p>1. Parity Check</p>
+                    <dl>
+                        <dd>Adalah salah satu meode untuk mengecek apakah data yang ditransmisikan sesuai dengan aslinya.</dd>
+                        <br><dd>Parity check berguna ketika kesalahan pengiriman data hanya muncul pada satu bit, namun ketika kesalahan terjadi pada dua bit data, maka parity check tidak dapat mendeteksinya</dd></br>
+                    </dl>
+                    <p>2. Checksum</p>
+                        <dl>Checksum adalah metode yang digunakan untuk mengecek apakah data yang dikirimkan pada saat transmisi berubah atau corrupted.</dl>
+                        <br><ul>
+                        dari checksum adalah sebagai berikut:
+                            1. Pada saat blok data akan ditransmisikan, checksum
+                            akan dihitung dari blok data
+                            2. Perhitungan checksum menggunakan algoritma yang
+                            disepakati antara pengirim dan penerima data
+                            3. Checksum kemudian ditransmisikan bersama dengan
+                            blok data
+                            4. Pada penerima, checksum akan dihitung kembali dan
+                            dibandingkan dengan checksum yang ada di blok data
+                            5. Jika hasil perhitungan ulang checksum sama dengan
+                            checksum yang ada di blok data maka pengiriman terjadi
+                            dengan tanpa kesalahan, jika berbeda maka permintaan
+                            pengiriman data ulang akan dikirimkan.
+                            </dl><br>
+
+                
+
